@@ -37,22 +37,32 @@ project_k.txt}
 <br />
 <br />
 
-I Changed the permissions of the file identified in the previous step so that the owner type of 'other' doesn’t have write permissions.{project_k.txt}
+I Changed the permissions of the file identified in the pevious step so that the owner type of 'other' doesn’t have write permissions.{project_k.txt}
 
 <img src="https://imgur.com/JXKYqCf.png" height="80%" width="80%" alt="File Permissions Steps"/>
 <br />
 <br />
-The file "project_m.txt" is a restricted file and should not be readable or writable by the 'group' or 'other'; only the user should have these permissions on this file Therfore, Listed the contents and permissions of the current directory and checked if the 'group' had read or write permissions.
+The file {"project_m.txt}" is a restricted file and should not be readable or writable by the 'group' or 'other'; only the user should have these permissions on this file Therfore, Listed the contents and permissions of the current directory and checked if the 'group' had read or write permissions.
 
 <img src="https://imgur.com/eerwyPO.png" height="80%" width="80%" alt="File Permissions Steps"/>
 <br />
 <br />
-I Used the {chmod} command to change permissions of the project_m.txt file so that the group doesn’t have read or write permissions. I then used {ls -la} to review the updates I made.
+I Used the {chmod} command to change permissions of the {project_m.txt} file so that the group doesn’t have read or write permissions. I then used {ls -la} to review the updates I made.
 <img src="https://imgur.com/tY1a2mG.png" height="80%" width="80%" alt="File Permissions Steps"/>
 <br />
 <br />
-
-
+The file {.project_x.txt} is a hidden file that has been archived and should not be written to by anyone. (The user and group should still be able to read this file.). Therefore I changed the permissions of the file {.project_x.txt} so that both the 'user' and the 'group' can read, but not write to, the file
+<img src="https://imgur.com/0uViy8I.png" height="80%" width="80%" alt="File Permissions Steps"/>
+<br />
+<br />
+In the projects directory while managing the permissions of its subdirectory drafts, I checked the permissions of the drafts directory becuase no one other than 'user' should have execute permissions.
+<img src="https://imgur.com/BaWvKSs.png" height="80%" width="80%" alt="File Permissions Steps"/>
+<br />
+<br />
+I then removed the execute permission for the 'group' from the drafts directory.
+<img src="https://imgur.com/pbJLxjU.png" height="80%" width="80%" alt="File Permissions Steps"/>
+<br />
+<br />
 
 
 
